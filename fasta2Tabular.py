@@ -15,4 +15,4 @@ def FastaToTabular (SourceFile, ResultFile):
         #elif i[0]=="A"or i[0]=="A"or i[0]=="G"or i[0]=="T"or i[0]=="C":
             fw.write(i)
         else: continue
-FastaToTabular("Galaxy207-[getorf_on_data_191].fasta", "Galaxy207-[getorf_on_data_191].txt")
+FastaToTabular("input.fasta", "output.tabular")
